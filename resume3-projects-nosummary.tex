@@ -1,16 +1,11 @@
 \documentclass{resume}
-
-
-  \input{sections/header.tex}
+\input{sections/header.tex}
 
 \begin{document}
   \input{sections/objective.tex}
 
-  \begin{rSection}{Education}
-    {\bf Washington University in St.\ Louis (WUSTL)} \hfill {May 2023 } \\
-    { B.A., Majors in Statistics and Economics } \hfill { High Honors; GPA:\@ 3.91} \medskip \\
-    \input{sections/coursework.tex}
-  \end{rSection}
+  \def\nocoursework{true}
+  \input{sections/education.tex}
 
   \input{sections/experience.tex}
 

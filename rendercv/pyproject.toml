@@ -1,0 +1,10 @@
+[project]
+name = "resume-rendercv"
+version = "0.1.0"
+description = "Personal resume built with rendercv (typst wrapper)"
+readme = "../README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["rendercv[full]~=2.2"]

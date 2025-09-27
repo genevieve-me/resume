@@ -104,7 +104,7 @@
   }\smallskip
   % \cdot used for bullets, items non-indented
   \begin{list}{$\cdot$}{\leftmargin=0.5em}
-  \itemsep -0.5em \vspace{-0.5em}
+  \itemsep -0.1em \vspace{-0.3em}
 }{
   \end{list}
   % \vspace{0.5em}

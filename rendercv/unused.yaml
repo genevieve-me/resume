@@ -1,0 +1,26 @@
+cv:
+  sections:
+    # - "Coursework: Bayesian Statistics, Nonparametric Estimation, Stochastic Processes, Market Design & Auctions, Capital Markets & Investments"
+    summary:
+      - |
+        Recent graduate with majors in statistics and economics who is passionate about
+        applying data analysis to real-world problems and improving developer experience.
+        Analytical thinker and effective communicator with proven ability to collaborate on interdisciplinary projects and teams.
+        Objective: Apply statistical concepts to offer data-driven insights and improve decision-making
+    experience:
+      - company: The Syllabus
+        highlights:
+          - Wrote/deployed serverless functions for internal monitoring, SSO automation, etc.
+          - Replaced outdated fastText document classifier with BERT-based static model; improved speed allowed us to expand data pipeline without needing to increase cloud costs
+          - Automated time-consuming manual data processing from main weekly product cycle
+          - Added concurrent processing to core business logic in main Django backend, eliminating costly wait times for internal users
+          - Set up cloud strategy from scratch. AWS organization, IAM and RBAC for security
+          - Implemented CI/CD for all projects from scratch, cut developer time spent on repetitive deployment tasks down to near zero
+          - Led successful effort to containerize internal tools and transition all deployments to IaC
+          - Identifying redundant infrastructure and RDS inefficiencies saved $1800 in annual cloud spend
+          - Observability strategy helped us find many hidden bugs. Led an effort to figure out KPIs and track them via OpenTelemetry adoption
+          - Found leaked secrets while setting up CI/CD and automating deployments, ensuring protection of client data, regulatory compliance, and security of infrastructure
+          - Documented frequently used manual workflows in runbooks for easier maintenance
+          - Performed analyses on results/featured articles to improve queries, wrote many tools to consume APIs like OpenLibrary
+      skills:
+        # details: Wide variety of python packages including Pandas/Polars, numpy, Arrow, Django/FastAPI, Pydantic, etc.
